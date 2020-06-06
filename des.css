@@ -1,0 +1,42 @@
+.card-img-top{
+    width: 1330px;
+    height: 500px;
+}
+.card-body{
+
+    margin-left: 120px;
+    margin-right: 120px;
+    
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    color: grey;
+    font-family: sans-serif;
+}
+@media screen and (max-width:1330px){
+    .card-img-top{
+        width:100%;
+    }
+    
+}
+.btn-primary{
+    padding:  12px 20px;
+  background-color: blue;
+  color:white;
+  border-radius: 10px;
+  text-decoration: none;
+}
+a.btn-primary:hover{
+
+  background-color:darkblue;
+  color:white;
+
+  text-decoration: none;
+}
+.port{
+   background-color: skyblue;
+  
+}
+

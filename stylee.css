@@ -1,0 +1,64 @@
+.navbar{
+    background-color:lightslategray !important;
+    
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold !important;}
+   .cart,.card-deck{
+       margin-top: 30px;
+       margin-left: 25px;
+       margin-right: 25px;
+       margin-bottom: 30px;
+    
+   }
+  .col2{
+      width: 300px;
+  }
+  @media screen and (max-width:1330px){
+    .col2{
+        width:100%;
+    }
+}
+  .row{
+      justify-content: space-around;
+  }
+ .col-md-4,.col-md-8{
+     box-shadow:  2px 4px 5px grey;
+ }
+ .card-text{
+     font-family: Helvetica;
+ }
+
+.img-area{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+ .single-img{
+     padding: 0 0 15px 15px;
+    margin-top: 20px;}
+.image-resize{
+     height: 200;
+     width: 200;
+ }
+ .gal{
+     text-align: center;
+     color: indigo;
+ }
+ img:hover{
+     opacity:.5;
+     transition: .9s;
+ }
+ .last{
+     background-color:gray;
+    }
+
+ .fb-ic{
+     padding-left: 350px;
+ }
+.tw-ic,.gplus-ic,.li-ic{
+    padding-left: 50px;
+ }
